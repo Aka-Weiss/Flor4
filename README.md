@@ -25,6 +25,8 @@ Acesse `http://localhost:4174`. Verificações básicas: `node check.mjs`.
 
 Links navegam para as seções. O menu mobile abre, fecha ao navegar e responde a Escape. Os cartões e links informativos abrem um diálogo nativo, com fechamento por botão, Escape ou clique externo.
 
+`motion.js` usa GSAP 3.13 (ScrollTrigger, SplitText) e Lenis 1.3, copiados em `vendor/`. Rolagem suave, entrada da página, zoom e parallax do hero, "FLOWERS" revelado letra a letra, títulos por linha, cartões revelados por máscara (também ao filtrar) e a sombra botânica balançando devagar, como numa brisa. Com `prefers-reduced-motion` ou sem as bibliotecas, a página fica estática e completa.
+
 A referência não especifica interações nem layout mobile. Essas adaptações são inferências. Entrega, contatos e pedidos são demonstrativos; nenhum envio ou pagamento é realizado.
 
 ## Imagens e fidelidade

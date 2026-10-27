@@ -8,7 +8,13 @@
   <title>FLOWERS — Flores que dizem o que você sente</title>
   <link rel="preload" href="assets/cormorant-light.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="styles.css">
+  <script>if (!matchMedia('(prefers-reduced-motion: reduce)').matches) { document.documentElement.classList.add('motion', 'motion-pending'); setTimeout(() => document.documentElement.classList.remove('motion-pending'), 4000); }</script>
   <script src="script.js" defer></script>
+  <script src="vendor/gsap.min.js" defer></script>
+  <script src="vendor/ScrollTrigger.min.js" defer></script>
+  <script src="vendor/SplitText.min.js" defer></script>
+  <script src="vendor/lenis.min.js" defer></script>
+  <script src="motion.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#bouquets">Ir para os buquês</a>
